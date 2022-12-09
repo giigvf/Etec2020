@@ -1,0 +1,49 @@
+unit Ucomissao;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmComissaoPorcentual = class(TForm)
+    lblNome: TLabel;
+    lblVendas: TLabel;
+    lblSalario: TLabel;
+    edtNome: TEdit;
+    edtVendas: TEdit;
+    edtSalario: TEdit;
+    btnSalario: TButton;
+    procedure btnSalarioClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmComissaoPorcentual: TfrmComissaoPorcentual;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmComissaoPorcentual.btnSalarioClick(Sender: TObject);
+var
+   Nome: string;
+   salario, Movosalario, qtdVendas: real;
+begin
+     Nome       :=   edtNome.Text;
+     salario    :=   StrToFloat (edtSalario.Text);
+     qtdVendas  :=   StrToFloat (edtVendas.Text);
+
+     if qtdVendas <= 1000 then
+      salario:= salario *3/100;
+      ShowMessage ('Novo salário é....' salario:= FloatToStr (salario.text))
+      else
+     salario:= salario *5/100;
+      ShowMessage ('Novo salário é....' salario);
+end;
+
+end.
