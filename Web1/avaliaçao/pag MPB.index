@@ -1,0 +1,50 @@
+<html>
+<head> <title> Músicas de MPB </title> </head>
+ <link rel="stylesheet"
+		 type="text/css" href="cores pags.css">
+
+<body> <center>
+<div id="titulo2">     <h2>  Apesar de Você </h2><br>       </div>
+<div id="conteudo">
+<p> Ano de lançamento: 1978
+<br>
+<p> Artista: Chico Buarque
+<br>
+<p> Álbum: Chico Buarque
+<br><br>
+<a href="https://www.youtube.com/watch?v=33-bMTOlvx0"> Chico Buarque - Apesar de Você - YouTube</a>
+<br> <br>
+
+</div> 
+<div id="titulo2">     <h2>De Janeiro a Janeiro </h2><br>       </div>
+
+<div id="conteudo">
+<p> Ano de lançamento: 2008
+<br>
+<p> Artista: Roberta Campos e Nando Reis
+<br>
+<p> Álbum:  Para Aquelas Perguntas Tortas
+<br><br>
+<a href="https://www.youtube.com/watch?v=8nOEO7Hm7rg">Roberta Campos e Nando Reis - De Janeiro a Janeiro</a>
+<br> <br>
+
+</div> 
+<div id="titulo2">     <h2> Alegria, Alegria  </h2><br>       </div>
+<div id="conteudo">
+<p> Ano de lançamento: 1968
+
+<br>
+<p> Artista: Caetano Veloso
+<br>
+<p> Álbum: Caetano Veloso
+<br><br>
+<a href="https://www.youtube.com/watch?v=WL8l8olaMmI">Caetano Veloso - Alegria, Alegria - YouTube</a>
+<br> <br>
+
+
+<a href="pag principal.html">voltar</a>
+<br>
+
+</center>
+</body>
+</html>

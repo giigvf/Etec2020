@@ -1,0 +1,49 @@
+<html>
+<head> <title> Músicas de Blues </title> </head>
+ <link rel="stylesheet"
+		 type="text/css" href="cores pags.css">
+
+<body> <center>
+<div id="titulo2">     <h2>  Crossroad Blues – Robert Johnson </h2><br>       </div>
+<div id="conteudo">
+<p> Ano de lançamento: -
+<br>
+<p> Artista: A. Robert Johnson
+<br>
+<p> Álbum:  King of the Delta Blues Singers
+<br><br>
+<a href="https://www.youtube.com/watch?v=Yd60nI4sa9A">Robert Johnson- Crossroad - YouTube</a>
+<br> <br>
+
+</div> 
+<div id="titulo2">     <h2>  Manish Boy – Muddy Waters </h2><br>       </div>
+
+<div id="conteudo">
+<p> Ano de lançamento: 2002
+<br>
+<p> Artista:  Muddy Waters
+<br>
+<p> Álbum: -
+<br><br>
+<a href="https://www.youtube.com/watch?v=bSfqNEvykv0">Muddy Waters - Mannish Boy (Audio) - YouTube</a>
+<br> <br>
+
+</div> 
+<div id="titulo2">     <h2> Canned Heat Blues</h2><br>       </div>
+<div id="conteudo">
+<p> Ano de lançamento: -
+<br>
+<p> Artista: Tommy Johnson
+<br>
+<p> Álbum: -
+<br> <br>
+<a href="https://www.youtube.com/watch?v=3644VwN_GcU">Tommy Johnson - Canned Heat Blues - YouTube</a>
+<br> <br>
+
+
+<a href="pag principal.html">voltar</a>
+<br>
+
+</center>
+</body>
+</html>

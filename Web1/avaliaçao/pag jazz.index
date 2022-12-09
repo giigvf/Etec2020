@@ -1,0 +1,49 @@
+<html>
+<head> <title> músicas de Jazz </title> </head>
+  <link rel="stylesheet"
+		 type="text/css" href="cores pags.css">
+<body> <center>
+
+<div id="titulo2">     <h2> Feeling Good </h2><br>       </div>
+
+<div id="conteudo">
+<p> Ano de lançamento: 1965
+<br>
+<p> Artista: Nina Simone
+<br>
+<p> Álbum: I Put a Spell on You
+<br><br>
+<a href="https://www.youtube.com/watch?v=D5Y11hwjMNs">Nina Simone Feeling Good - YouTube</a>
+<br> <br>
+
+</div> 
+<div id="titulo2">     <h2> So What </h2><br>       </div>
+
+<div id="conteudo">
+<p> Ano de lançamento:(não encontrei) 
+<br>
+<p> Artista: Miles Davis
+<br>
+<p> Álbum: -
+<br><br>
+<a href="https://www.youtube.com/watch?v=zqNTltOGh5c">Miles Davis - So What (Official Video) - YouTube</a>
+<br> <br>
+
+</div> 
+<div id="titulo2">     <h2> Blue Rondo a La Turk </h2><br>       </div>
+<div id="conteudo">
+<p> Ano de lançamento: 1959
+<br>
+<p> Artista:  Dace Brubeck
+<br>
+<p> Álbum: Time Out
+<br><br>
+<a href="https://www.youtube.com/watch?v=j9GgmGLPbWU">Dave Brubeck Quartet - "Blue Rondo à la Turk," live</a>
+<br> <br>
+
+
+<a href="pag principal.html">voltar</a>
+<br>
+</center>
+</body>
+</html>
