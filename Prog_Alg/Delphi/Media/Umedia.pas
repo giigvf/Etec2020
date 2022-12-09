@@ -1,0 +1,51 @@
+unit Umedia;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons;
+
+type
+  TfrmMedia = class(TForm)
+    lblNota1: TLabel;
+    lblNota2: TLabel;
+    lblNota3: TLabel;
+    lblNota4: TLabel;
+    lblMedia: TLabel;
+    BitBtnCalcularMedia: TBitBtn;
+    edtNota1: TEdit;
+    edtNota2: TEdit;
+    edtNota3: TEdit;
+    edtNota4: TEdit;
+    edtMedia: TEdit;
+    procedure BitBtnCalcularMediaClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmMedia: TfrmMedia;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmMedia.BitBtnCalcularMediaClick(Sender: TObject);
+  var
+  n1, n2, n3, n4, media: real;
+
+begin
+   n1:= StrToFloat(edtnota1.text);
+   n2:= StrToFloat(edtnota2.text);
+   n3:= StrToFloat(edtnota3.text);
+   n4:= StrToFloat(edtnota4.text);
+
+   media:= (n1 + n2 + n3 + n4) /4
+
+  edtmedia.text:= FloatToStr (Media);
+end;
+
+end.
