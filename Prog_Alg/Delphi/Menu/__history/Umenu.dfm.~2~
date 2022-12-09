@@ -1,0 +1,103 @@
+object frmMenu: TfrmMenu
+  Left = 0
+  Top = 0
+  Caption = 'Sistema de Gerenciamento de Dados'
+  ClientHeight = 404
+  ClientWidth = 622
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MainMenu1: TMainMenu
+    Left = 144
+    Top = 40
+    object Cadastro1: TMenuItem
+      Caption = 'Cadastro'
+      object Clientes1: TMenuItem
+        Caption = 'Clientes'
+      end
+      object Produtos1: TMenuItem
+        Caption = 'Produtos'
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object Sair1: TMenuItem
+        Caption = 'Sair'
+      end
+    end
+    object Movimentos1: TMenuItem
+      Caption = 'Movimentos'
+      object Vendas1: TMenuItem
+        Caption = 'Vendas'
+      end
+      object Compras1: TMenuItem
+        Caption = 'Compras'
+      end
+      object N2: TMenuItem
+        Caption = '-'
+      end
+      object ContasaReceber1: TMenuItem
+        Caption = 'Contas a Receber'
+      end
+      object ContasaPagar1: TMenuItem
+        Caption = 'Contas a Pagar'
+      end
+      object FechamentodeCaixa1: TMenuItem
+        Caption = 'Fechamento de Caixa'
+      end
+    end
+    object Relatrios1: TMenuItem
+      Caption = 'Relat'#243'rios'
+      object Vendas3: TMenuItem
+        Caption = 'Vendas'
+      end
+      object Compras2: TMenuItem
+        Caption = 'Compras'
+      end
+      object Produtos3: TMenuItem
+        Caption = 'Produtos'
+      end
+      object Clientes3: TMenuItem
+        Caption = 'Clientes'
+      end
+    end
+    object Consultas1: TMenuItem
+      Caption = 'Consultas'
+      object Clientes2: TMenuItem
+        Caption = 'Clientes'
+      end
+      object Produtos2: TMenuItem
+        Caption = 'Produtos'
+      end
+      object Vendas2: TMenuItem
+        Caption = 'Vendas'
+        object PorPerodos1: TMenuItem
+          Caption = 'Por Per'#237'odos'
+        end
+        object PorClientes1: TMenuItem
+          Caption = 'Por Clientes'
+        end
+      end
+      object Compas1: TMenuItem
+        Caption = 'Compas'
+        object PorPerodo1: TMenuItem
+          Caption = 'Por Per'#237'odo'
+        end
+        object PorClientes2: TMenuItem
+          Caption = 'Por Clientes'
+        end
+        object PoFornecedor1: TMenuItem
+          Caption = 'Por Fornecedor'
+        end
+      end
+    end
+  end
+end

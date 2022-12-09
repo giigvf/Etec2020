@@ -1,0 +1,16 @@
+program Pmenu;
+
+uses
+  Vcl.Forms,
+  Umenu in 'Umenu.pas' {frmMenu},
+  Uclientes in 'Uclientes.pas' {frmClientes};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmMenu, frmMenu);
+  Application.CreateForm(TfrmClientes, frmClientes);
+  Application.Run;
+end.

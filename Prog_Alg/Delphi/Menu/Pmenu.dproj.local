@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/10/27 15:30:07.000.915,=C:\Users\Nilceia\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/12/01 14:29:43.154,=C:\Users\Nilceia\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/12/01 14:36:21.928,D:\Prog_alg\Delphi\Menu\Umenu.dfm=C:\Users\Nilceia\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/12/01 14:36:21.928,D:\Prog_alg\Delphi\Menu\Umenu.pas=C:\Users\Nilceia\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/12/01 14:36:30.665,D:\Prog_alg\Delphi\Menu\Pmenu.dproj=C:\Users\Nilceia\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/12/01 15:01:29.953,=D:\Prog_alg\Delphi\Menu\Unit1.pas</Transaction>
+    <Transaction>2020/12/01 15:02:59.573,D:\Prog_alg\Delphi\Menu\Uclientes.pas=D:\Prog_alg\Delphi\Menu\Unit1.pas</Transaction>
+    <Transaction>2020/12/01 15:02:59.573,D:\Prog_alg\Delphi\Menu\Uclientes.dfm=D:\Prog_alg\Delphi\Menu\Unit1.dfm</Transaction>
+    <Transaction>2020/12/01 15:05:15.266,=D:\Prog_alg\Delphi\Menu\Unit1.pas</Transaction>
+    <Transaction>2020/12/01 15:07:19.566,D:\Prog_alg\Delphi\Menu\Uprodutos.pas=D:\Prog_alg\Delphi\Menu\Unit1.pas</Transaction>
+    <Transaction>2020/12/01 15:07:19.566,D:\Prog_alg\Delphi\Menu\Uprodutos.dfm=D:\Prog_alg\Delphi\Menu\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

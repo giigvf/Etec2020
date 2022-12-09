@@ -1,0 +1,14 @@
+program Pmenu;
+
+uses
+  Vcl.Forms,
+  Umenu in 'Umenu.pas' {frmMenu};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmMenu, frmMenu);
+  Application.Run;
+end.
