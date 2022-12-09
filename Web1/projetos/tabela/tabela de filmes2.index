@@ -1,0 +1,23 @@
+<html>
+       <head> <title>Pojeto Filmes</title> </head>
+<body>
+<center>
+<table border="3">
+
+  <tr> <th colspan="4"> Ficcao </th> </tr>
+    <td><a href="file:///D:/Web/projetos/tabela/avatar.html"> <img src= "avatar.jpg" width="100" height="100"> </img> </a> </td>
+	<td><a href="file:///D:/Web/projetos/tabela/bird%20box.html"> <img src= "birdbox.png" width="100" height="100"> </img> </a> </td>
+	<td><a href="file:///D:/Web/projetos/tabela/jogosvorazes.html"> <img src= "jogosvorazes.jpeg" width="100" height="100"></img> </a> </td>
+	<td><a href="file:///D:/Web/projetos/tabela/planeta%20dos%20macacos.html"> <img src= " planeta.png" width="100" height="100"> </img> </a> </td>
+</tr>
+  <tr> <th colspan="4"> infantil </th> </tr>
+<tr>
+    <td><a href="file:///D:/Web/projetos/tabela/reileao.html"> <img src= "rei.jpg" width="100" height="100"> </img> </a> </td>
+	<td><a href="file:///D:/Web/projetos/tabela/divertidamente.html"> <img src= "divertidamente.jpg" width="100" height="100"> </a> </img> </td>
+	<td><a href="file:///D:/Web/projetos/tabela/frozen2.html"> <img src= "frozen.jpg" width="100" height="100"> </img> </a> </td>
+	<td><a href="file:///D:/Web/projetos/tabela/meu%20malvado%20favorito.html"> <img src= "favorito.jpg" width="100" height="100"> </a> </td>
+</tr>
+</table>
+</center>
+</body>
+</html>

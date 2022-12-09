@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+ul#album-fotos {
+	width: 700px;
+	margin: 0 auto;
+	padding: 50px:
+	overflow: hidden;
+	list-style: none;
+	overflow: hidden;
+}
+
+ul#album-fotos li{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 5px #fffff;
+	background-color: #fffff;
+	box-shadow: 1px 1px 3px rgba (0, 0, 0, 0. 4);
+	padding: 5px;
+}
+	
