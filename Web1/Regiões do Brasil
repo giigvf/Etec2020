@@ -1,0 +1,29 @@
+<!doctypehtml>
+<html lang="pt-br">
+  <head>
+  <meta charset="UTF-8"
+  <meta name="keywords" content="pagina html com css">
+  <meta name="description" pagina html com css">
+  <meta name="author" content="ISA,GIU">
+  <title>pagina html com css</title>
+  </head>
+<body>
+<H1 stile="text aling:center"> regiões do brasil  </h1>
+<center><p>A definição das regiões do Brasil vista como é hoje teve seu início de discussão desde a década de 1940,
+quando o IBGE (Instituto Brasileiro de Geografia e Estatística) desenvolveu a primeira divisão regional brasileira para a divulgação dos dados estatísticos do país. Era dividida entre Norte, Nordeste,
+Este, Centro e Sul, e a disposição das unidades de federação estavam diferentes, assim como algumas ainda não existiam até então.
+Em 1945 houve uma divisão com o intuito de agrupar as regiões de acordo com fatores naturais como vegetação, clima, relevo e
+ econômicos. As alterações foram feitas e as regiões se dividiam entre Norte, Nordeste Ocidental, Nordeste Oriental, Leste Setentrional, Leste Meridional
+ Centro-Oeste e Sul. Ainda não haviam surgido todas as unidades de federação, e essa divisão em maior número de regiões era voltada mais as características naturais e não se relacionava com a real vivencia da economia do país naquele momento.</center></p>
+ <H2 stile="text aling:center"> Região Norte </h2>
+ <center><p>A Região Norte é formada por 7 unidades de federação, sendo elas Acre (AC), Amapá (AP), Amazonas (AM), Pará (PA), Rondônia (RO), Roraima (RR) e Tocantins (TO), é a maior região em dimensão territorial, com aproximadamente 3.870.000 km², 
+ porém sua população possui cerca de 17.800.000 habitantes (expectativa para 2016), tendo a menor densidade demográfica do país, com cerca de 4,5 habitantes/km². É a região com o maior número de população que se identifica como indígena.
+ É composta pela floresta amazônica, maior floresta pluvial, também pela maior bacia hidrográfica, que recebe o nome de seu rio principal, a bacia do amazonas. Possui clima equatorial, responsável por altas temperaturas e chuvas intensas por todo o ano.</center></p>
+ <H3stile="text aling:center"> Região Nordeste  </h3>
+ <center><p>A Região Nordeste é formada por 9 unidades de federação, sendo, Alagoas (AL), Bahia (BA), Ceará (CE), Maranhão (MA), Paraíba (PB), Pernambuco (PE), Piauí (PI), Rio Grande do Norte (RN) e Sergipe (SE). Possui a segunda maior população do país,
+ com cerca de 56.900.00 habitantes (expectativa para 2016) distribuídos em um território de aproximadamente 1.561.177,8 km², gerando uma densidade demográfica de 36,4 habitantes/km². Essa região é marcada pela forte presença do clima semiárido, característico do sertão nordestino,
+ dificultando o desenvolvimento econômico a partir da agropecuária nessa sub-região, um dos motivos de uma grande migração dos habitantes para as demais regiões em busca de melhores qualidades de vida. A formação vegetal do Nordeste é a caatinga, com características próprias para o clima seco da região. 
+ Suas outras sub-regiões são divididas entre zona da mata, agreste e meio norte, cada um com características específicas e transitórias.</center>
+</body>
+</html lang="pt-br">
+</!doctypehtml>

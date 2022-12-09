@@ -1,0 +1,7 @@
+<html>
+<head>
+<body>
+qualquer coisa
+</body>
+</html>
+exemplo1.html
