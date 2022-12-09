@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/10/06 15:11:44.000.709,=C:\Users\Nilceia\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/10/06 15:55:08.000.146,C:\Users\Nilceia\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Prog_alg\Delphi\Parcelas - vencimentos\Uparcelas.pas</Transaction>
+    <Transaction>2020/10/06 15:55:08.000.146,C:\Users\Nilceia\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\Prog_alg\Delphi\Parcelas - vencimentos\Uparcelas.dfm</Transaction>
+    <Transaction>2020/10/06 15:55:18.000.000,C:\Users\Nilceia\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Prog_alg\Delphi\Parcelas - vencimentos\Pparcelas.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,180 @@
+object frmVendas: TfrmVendas
+  Left = 0
+  Top = 0
+  Caption = 'Vendas'
+  ClientHeight = 322
+  ClientWidth = 716
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblCliente: TLabel
+    Left = 232
+    Top = 16
+    Width = 33
+    Height = 13
+    Caption = 'Cliente'
+  end
+  object lblData_venda: TLabel
+    Left = 197
+    Top = 48
+    Width = 71
+    Height = 13
+    Caption = 'Data da Venda'
+  end
+  object lblVLRTotal: TLabel
+    Left = 214
+    Top = 75
+    Width = 51
+    Height = 13
+    Caption = 'Valor Total'
+  end
+  object lblParcela1: TLabel
+    Left = 24
+    Top = 176
+    Width = 44
+    Height = 13
+    Caption = 'Parcela 1'
+  end
+  object lblParcela2: TLabel
+    Left = 312
+    Top = 176
+    Width = 44
+    Height = 13
+    Caption = 'Parcela 2'
+  end
+  object lblParcela3: TLabel
+    Left = 552
+    Top = 176
+    Width = 44
+    Height = 13
+    Caption = 'Parcela 3'
+  end
+  object lblVencimento1: TLabel
+    Left = 8
+    Top = 203
+    Width = 96
+    Height = 13
+    Caption = 'Data de Vencimento'
+  end
+  object lblVencimento2: TLabel
+    Left = 248
+    Top = 203
+    Width = 96
+    Height = 13
+    Caption = 'Data de Vencimento'
+  end
+  object lblVencimento3: TLabel
+    Left = 500
+    Top = 203
+    Width = 96
+    Height = 13
+    Caption = 'Data de Vencimento'
+  end
+  object lblVLR1: TLabel
+    Left = 88
+    Top = 242
+    Width = 24
+    Height = 13
+    Caption = 'Valor'
+  end
+  object lblVLR2: TLabel
+    Left = 332
+    Top = 242
+    Width = 24
+    Height = 13
+    Caption = 'Valor'
+  end
+  object lblVLR3: TLabel
+    Left = 585
+    Top = 242
+    Width = 24
+    Height = 13
+    Caption = 'Valor'
+  end
+  object dtaTotal: TDateTimePicker
+    Left = 288
+    Top = 40
+    Width = 97
+    Height = 21
+    Date = 44110.000000000000000000
+    Time = 0.634559780090057800
+    TabOrder = 0
+  end
+  object edtCliente: TEdit
+    Left = 288
+    Top = 13
+    Width = 273
+    Height = 21
+    TabOrder = 1
+  end
+  object edtTotal: TEdit
+    Left = 288
+    Top = 67
+    Width = 193
+    Height = 21
+    TabOrder = 2
+  end
+  object edtVLR1: TEdit
+    Left = 40
+    Top = 261
+    Width = 121
+    Height = 21
+    TabOrder = 3
+  end
+  object edtVLR2: TEdit
+    Left = 288
+    Top = 261
+    Width = 121
+    Height = 21
+    TabOrder = 4
+  end
+  object edtVLR3: TEdit
+    Left = 536
+    Top = 261
+    Width = 121
+    Height = 21
+    TabOrder = 5
+  end
+  object dtaP1: TDateTimePicker
+    Left = 110
+    Top = 203
+    Width = 99
+    Height = 21
+    Date = 44110.000000000000000000
+    Time = 0.641913993058551600
+    TabOrder = 6
+  end
+  object dtaP2: TDateTimePicker
+    Left = 350
+    Top = 203
+    Width = 97
+    Height = 21
+    Date = 44110.000000000000000000
+    Time = 0.641929363424424100
+    TabOrder = 7
+  end
+  object dtaP3: TDateTimePicker
+    Left = 602
+    Top = 203
+    Width = 97
+    Height = 21
+    Date = 44110.000000000000000000
+    Time = 0.641940347224590400
+    TabOrder = 8
+  end
+  object btnParcelas: TButton
+    Left = 288
+    Top = 120
+    Width = 129
+    Height = 25
+    Caption = 'Gerar Parcelas'
+    TabOrder = 9
+    OnClick = btnParcelasClick
+  end
+end
