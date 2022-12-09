@@ -1,0 +1,82 @@
+object frmporcentagemsalarial: Tfrmporcentagemsalarial
+  Left = 0
+  Top = 0
+  Caption = 'Porcentagem Salarial'
+  ClientHeight = 234
+  ClientWidth = 320
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblFuncionario: TLabel
+    Left = 79
+    Top = 29
+    Width = 55
+    Height = 13
+    Caption = 'Funcionario'
+  end
+  object lblSalario: TLabel
+    Left = 102
+    Top = 69
+    Width = 32
+    Height = 13
+    Caption = 'Sal'#225'rio'
+  end
+  object lblNovoSalario: TLabel
+    Left = 74
+    Top = 112
+    Width = 60
+    Height = 13
+    Caption = 'Novo Sal'#225'rio'
+  end
+  object lblPocentagemUtilizada: TLabel
+    Left = 32
+    Top = 200
+    Width = 102
+    Height = 13
+    Caption = 'Pocentagem Utilizada'
+  end
+  object edtFuncionario: TEdit
+    Left = 160
+    Top = 21
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object edtSalario: TEdit
+    Left = 160
+    Top = 61
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object edtNovoSalario: TEdit
+    Left = 160
+    Top = 104
+    Width = 121
+    Height = 21
+    TabOrder = 2
+  end
+  object edtPU: TEdit
+    Left = 160
+    Top = 192
+    Width = 121
+    Height = 21
+    TabOrder = 3
+  end
+  object btnCalcular: TButton
+    Left = 120
+    Top = 147
+    Width = 121
+    Height = 25
+    Caption = 'Calcular Porcentagem'
+    TabOrder = 4
+    OnClick = btnCalcularClick
+  end
+end
