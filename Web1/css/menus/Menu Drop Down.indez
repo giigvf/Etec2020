@@ -1,0 +1,57 @@
+<html>
+<html lang="pt-br">
+<meta charset="UTF8">
+
+<head>
+      <title>Menu Horizontal</title>
+
+<style>
+body
+{
+position: relative;
+top: 10px;
+left: 300px;
+padding:0px;
+margin: 0px;
+font-family: arial, helvetica, sans-serif;
+font-size: 16px;
+}
+
+#menu li
+{
+position: relative;
+border-right:1px solid #c0c0c0;
+list-style:none;
+float: left;
+}
+
+</style>
+
+</head>
+<body>
+    <div id="menu">
+	    <ul>
+		         <li><a href="">Home</a>
+				 <li><a href="">Sobre</a></li>
+				 <li><a href="">Tutoriáis</a></li>
+		      <ul></li>
+		        <li><a href="">HTML 5.0</a></li>
+				<li><a href="">CSS</a></li>
+				<li><a href="">Java Script</a></li>
+		      </ul>	
+		        
+		<li><a href="">Artigos</a>
+		<ul>
+		        <li><a href="">Menu em CSS</a></li>
+				<li><a href="">Estilizando Tabelas</a></li>
+				<li><a href="">Layout em CSS</a></li>
+		</ul>
+		</li>
+		        <li><a href="">Curos</a></li>
+				<li><a href="">Professores</a></li>
+				<li><a href="">Contato</a></li>
+		</ul>
+	</div>
+</body>	
+</html>
+	  

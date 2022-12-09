@@ -1,0 +1,22 @@
+#banner{
+WIDTH: 900px;
+HEIGHT: 200px;
+margin: 0 auto;
+background: pink;
+
+}
+#menu {
+WIDTH: 900px;
+HEIGHT: 40px;
+margin: 0 auto;
+background: black;
+}
+
+#conteudo {
+WIDTH: 900px;
+HEIGHT: 400px;
+margin: 0 auto;
+background:pink ;
+ }
+
+h1 {color: white;}
