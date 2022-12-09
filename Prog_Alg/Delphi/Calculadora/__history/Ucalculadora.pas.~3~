@@ -1,0 +1,51 @@
+unit Ucalculadora;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.jpeg, Vcl.ExtCtrls,
+  Vcl.StdCtrls, Vcl.Buttons;
+
+type
+  TfrmCalculadora = class(TForm)
+    lblVlr1: TLabel;
+    lblVlr2: TLabel;
+    lblResultado: TLabel;
+    BitBtnSomar: TBitBtn;
+    BitBtnSubtrair: TBitBtn;
+    BitBtnMultiplicar: TBitBtn;
+    BitBtnDividir: TBitBtn;
+    BitBtnLimpar: TBitBtn;
+    BitBtnSair: TBitBtn;
+    edtVlr1: TEdit;
+    edtVlr2: TEdit;
+    edtResultado: TEdit;
+    Image: TImage;
+    procedure BitBtnSomarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    vlr1, vlr2, resultado, somar: real;
+  end;
+
+var
+  frmCalculadora: TfrmCalculadora;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmCalculadora.BitBtnSomarClick(Sender: TObject);
+
+begin
+  vlr1:=  StrToFloat (edtVlr1.text);
+  vlr2:=  StrToFloat (edtVlr2.text);
+
+  somar:= vlr1 + vlr2;
+
+  edtResultado.text:= FloatToStr (resultado);
+end;
+
+end.

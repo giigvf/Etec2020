@@ -1,0 +1,100 @@
+unit Ucalculadora;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.jpeg, Vcl.ExtCtrls,
+  Vcl.StdCtrls, Vcl.Buttons;
+
+type
+  TfrmCalculadora = class(TForm)
+    lblVlr1: TLabel;
+    lblVlr2: TLabel;
+    lblResultado: TLabel;
+    BitBtnSomar: TBitBtn;
+    BitBtnSubtrair: TBitBtn;
+    BitBtnMultiplicar: TBitBtn;
+    BitBtnDividir: TBitBtn;
+    BitBtnLimpar: TBitBtn;
+    BitBtnSair: TBitBtn;
+    edtVlr1: TEdit;
+    edtVlr2: TEdit;
+    edtResultado: TEdit;
+    Image: TImage;
+    procedure BitBtnSomarClick(Sender: TObject);
+    procedure BitBtnSubtrairClick(Sender: TObject);
+    procedure BitBtnMultiplicarClick(Sender: TObject);
+    procedure BitBtnDividirClick(Sender: TObject);
+    procedure BitBtnSairClick(Sender: TObject);
+    procedure BitBtnLimparClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    vlr1, vlr2, resultado: real;
+  end;
+
+var
+  frmCalculadora: TfrmCalculadora;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmCalculadora.BitBtnDividirClick(Sender: TObject);
+begin
+  vlr1:=  StrToFloat (edtVlr1.text);
+  vlr2:=  StrToFloat (edtVlr2.text);
+
+  resultado:= vlr1 / vlr2;
+
+  edtResultado.text:= FloatToStr (resultado);
+end;
+
+procedure TfrmCalculadora.BitBtnLimparClick(Sender: TObject);
+begin
+  edtVlr1.Clear;
+  edtVlr2.Clear;
+  edtResultado.Clear;
+
+  edtVlr1.SetFocus;
+end;
+
+procedure TfrmCalculadora.BitBtnMultiplicarClick(Sender: TObject);
+begin
+  vlr1:=  StrToFloat (edtVlr1.text);
+  vlr2:=  StrToFloat (edtVlr2.text);
+
+  resultado:= vlr1 * vlr2;
+
+  edtResultado.text:= FloatToStr (resultado);
+end;
+
+procedure TfrmCalculadora.BitBtnSairClick(Sender: TObject);
+begin
+  Close;
+end;
+
+procedure TfrmCalculadora.BitBtnSomarClick(Sender: TObject);
+
+begin
+  vlr1:=  StrToFloat (edtVlr1.text);
+  vlr2:=  StrToFloat (edtVlr2.text);
+
+  resultado:= vlr1 + vlr2;
+
+  edtResultado.text:= FloatToStr (resultado);
+end;
+
+procedure TfrmCalculadora.BitBtnSubtrairClick(Sender: TObject);
+begin
+  vlr1:=  StrToFloat (edtVlr1.text);
+  vlr2:=  StrToFloat (edtVlr2.text);
+
+  resultado:= vlr1 - vlr2;
+
+  edtResultado.text:= FloatToStr (resultado);
+end;
+
+end.
