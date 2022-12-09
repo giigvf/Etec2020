@@ -1,0 +1,54 @@
+unit Uempresa;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons, Vcl.ExtCtrls;
+
+type
+  TfrmEmpresa = class(TForm)
+    pnlGastos: TPanel;
+    pnlRecebimentos: TPanel;
+    edtM: TEdit;
+    edtL: TEdit;
+    edtRS: TEdit;
+    edtRC: TEdit;
+    edtH: TEdit;
+    BitBtnCalcularR: TBitBtn;
+    lblTotal_R: TLabel;
+    edtTotal_R: TEdit;
+    Label2: TLabel;
+    Label1: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    procedure BitBtnCalcularRClick(Sender: TObject);
+  private
+    { Private declarations }
+    Mensalidade, Lucro, RS, RC, H, totalR: real;
+  public
+    { Public declarations }
+  end;
+
+var
+  frmEmpresa: TfrmEmpresa;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmEmpresa.BitBtnCalcularRClick(Sender: TObject);
+begin
+    Mensalidade:=    StrToFloat (edtM.Text);
+    Lucro:=          StrToFloat (edtL.Text);
+    RS:=             StrToFloat (edtRS.Text);
+    RC:=             StrToFloat (edtRC.Text);
+    H:=              StrToFloat (edtH.Text);
+
+    totalR:=  Mensalidade + Lucro + RS + RC + H;
+    edtTotal_R.Text:= FloatToStr (totalR);
+end;
+
+end.
