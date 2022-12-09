@@ -1,0 +1,76 @@
+Realizar os comandos abaixo no console linux. assista a aula
+no canal dia 17092020
+
+1. Crie o diretório documentos
+IS
+MKDIR DOCUMENTOS
+
+2. Crie o diretório exerc
+IS
+MKDIR EXERC
+
+3. Crie o diretório arquivos
+IS
+MKDIR ARQUIVOS
+
+4. Visualize os arquivos e diretórios
+IS
+
+5. Entre no diretório documentos
+CD DOCUMENTOS
+
+6. Crie o arquivo word.txt
+VI WORD.TXT
+
+7. Volte ao diretório raiz
+IS
+
+8. Entre no diretório exerc
+CD EXERC
+
+9. Crie o arquivo excel.txt
+VI EXEL.TXT
+
+10. Volte ao diretório raiz
+IS
+
+11. Entre no diretório arquivos
+VI ARQUIVOS
+
+12. Crie o arquivo fireworks.txt
+VI FIREWORKS.TXT
+
+13. Copie o arquivo fireworks.txt para o diretório exerc
+IS
+CD ARQUIVOS
+CP FIREWORKS.TXT/ROOT/EXERC
+IS
+
+14. Volte a diretório raiz
+IS
+
+15. Exiba todos os arquivos e diretório.
+IS
+
+16. Entre no diretório exerc
+CD EXERC
+
+17. Execute o comando que exibe onde você se encontra
+PWD
+
+18. Exiba o conteúdo do arquivo fireworks.txt
+CD FIREWORKS.TXT
+
+19. Apague os arquivos do diretório
+RM FIREWORKS.TXT
+
+20. Retorne ao diretório raiz
+IS
+
+21. Apague o diretório exerc
+RMDIR EXERC
+
+*NÃO TENHO CERTEZA SE É ISSO*
+Muito bem !!! Missão Cumprida, Envie a Lista de comandos para seu professor através da aba tarefas.
+Forte abraço, até nossa próxima aula.
+Profs Sergio e Marcos
